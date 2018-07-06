@@ -1,0 +1,104 @@
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.Absolute-Center.is-Responsive {
+    width: 40%;
+    height: 60%;
+    min-width: 400px;
+    padding: 50px;
+}
+.margin1 {
+    margin-top: 25px;
+}
+
+/*table*/
+.panel-table .panel-body{
+    padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+    border-style: none;
+    margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 100px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+    border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+    border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+    border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+    border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+    margin:0;
+}
+
+
+.panel-table .panel-heading .col h3{
+    line-height: 30px;
+    height: 30px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr > td{
+    line-height: 34px;
+}
+
+/*sidenav*/
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    /*margin-left: 30%;*/
+    transition: 0.3s;
+
+}
+.sidenav:last-child{
+    border-bottom: none;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.boxed {
+
+    border: 1px  black ;
+    border-style: dashed;
+    height: 150px;
+    width:150px;
+    margin-top: 4%;
+}
+
